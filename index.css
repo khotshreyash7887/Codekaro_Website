@@ -111,8 +111,6 @@ body::-webkit-scrollbar{
         color: white;
     }
 
-
-
     .main-img{
         display: block;
         margin-left: auto;
@@ -172,7 +170,6 @@ body::-webkit-scrollbar{
         font-size: 1.8rem;
         font-family:'Times New Roman', Times, serif serif;
         padding-bottom: 10px;
-
     }
 
     /* -----------card---------------- */
@@ -340,8 +337,7 @@ body::-webkit-scrollbar{
         background-color: black;
         color: white;
         border-radius: 10px;
-        cursor: pointer;
-        
+        cursor: pointer;   
     }
 
     .online-btn:hover{
@@ -546,8 +542,7 @@ body::-webkit-scrollbar{
     padding: 20px 20px;
     border-radius: 10px;
     margin-bottom: 2rem;
-    margin-top: 5rem;
-    
+    margin-top: 5rem;    
 }
 
 .flex-profile{
@@ -620,7 +615,6 @@ body::-webkit-scrollbar{
     margin-bottom: 2rem;
 }
 
-
 /* ------online------------- */
 
 .online{
@@ -687,11 +681,8 @@ body::-webkit-scrollbar{
 }
 
 
-
-
-
-
-
+/* 
+-------------------------------------------------- */
 
 /* ------------Tab------------------------- */
 @media (min-width: 587px) and (max-width: 989px){
@@ -793,8 +784,6 @@ body::-webkit-scrollbar{
         background-color: black;
         color: white;
     }
-
-
 
     .main-img{
         display: block;
@@ -930,8 +919,7 @@ body::-webkit-scrollbar{
     padding: 20px 20px;
     border-radius: 10px;
     margin-bottom: 2rem;
-    margin-top: 5rem;
-    
+    margin-top: 5rem;  
 }
 
 .flex-profile{
@@ -1004,12 +992,12 @@ body::-webkit-scrollbar{
     margin-bottom: 2rem;
 }
 
-
 .online{
     margin-top: 5rem;
     text-align: center;
     margin-bottom: 3rem;
 }
+
 .online-img{
     width: 30rem;
     display: block;
@@ -1037,8 +1025,7 @@ body::-webkit-scrollbar{
     background-color: black;
     color: white;
     border-radius: 10px;
-    cursor: pointer;
-    
+    cursor: pointer;    
 }
 
 .online-btn:hover{
@@ -1051,9 +1038,9 @@ body::-webkit-scrollbar{
 .footer{
     width: 100%;
     padding: 2rem 5rem;
-    text-align: center;
-    
+    text-align: center;  
 }
+
 .list{
     display: block;
     align-items: center;
