@@ -18,7 +18,7 @@ body::-webkit-scrollbar{
 @media(min-width: 990px) {
     .header{
         width: 100%;
-        padding: 0.7rem 10rem;
+        padding: 0.4rem 10rem;
         background-color: rgb(231, 226, 220);
         display: flex;
         align-items: center;
@@ -399,16 +399,12 @@ body::-webkit-scrollbar{
 
 }
 
-/* ------------------ laptop---------------- */
-
-
-
-
+/* ------------------ laptop end---------------- */
 
 
 /* -----------------mobile screen---------------- */
 
-@media(max-width: 586px){
+@media(max-width: 587px){
 
 .header{
     padding: 10px 30px;
@@ -546,7 +542,7 @@ body::-webkit-scrollbar{
 .item1-box1{
     width: 100%;
     border: 1px solid rgb(240, 233, 233);
-    font-size: 2rem;
+    font-size: 1.6rem;
     padding: 20px 20px;
     border-radius: 10px;
     margin-bottom: 2rem;
@@ -563,7 +559,7 @@ body::-webkit-scrollbar{
 .item1-box2{
     width: 100%;
     border: 1px solid rgb(240, 233, 233);
-    font-size: 2rem;
+    font-size: 1.6rem;
     padding: 20px 20px;
     border-radius: 10px;
     margin-bottom: 2rem;
@@ -572,7 +568,7 @@ body::-webkit-scrollbar{
 .item2-box1{
     width: 100%;
     border: 1px solid rgb(240, 233, 233);
-    font-size: 2rem;
+    font-size: 1.6rem;
     padding: 20px 20px;
     border-radius: 10px;
     margin-bottom: 2rem;
@@ -581,7 +577,7 @@ body::-webkit-scrollbar{
 .item2-box2{
     width: 100%;
     border: 1px solid rgb(240, 233, 233);
-    font-size: 2rem;
+    font-size: 1.6rem;
     padding: 20px 20px;
     border-radius: 10px;
     margin-bottom: 2rem;
@@ -590,7 +586,7 @@ body::-webkit-scrollbar{
 .item3-box1{
     width: 100%;
     border: 1px solid rgb(240, 233, 233);
-    font-size: 2rem;
+    font-size: 1.6rem;
     padding: 20px 20px;
     border-radius: 10px;
     margin-bottom: 2rem;
@@ -600,7 +596,7 @@ body::-webkit-scrollbar{
 .item2-box2{
     width: 100%;
     border: 1px solid rgb(240, 233, 233);
-    font-size: 2rem;
+    font-size: 1.6rem;
     padding: 20px 20px;
     border-radius: 10px;
     margin-bottom: 2rem;
@@ -609,7 +605,7 @@ body::-webkit-scrollbar{
 .item3-box1{
     width: 100%;
     border: 1px solid rgb(240, 233, 233);
-    font-size: 2rem;
+    font-size: 1.6rem;
     padding: 20px 20px;
     border-radius: 10px;
     margin-bottom: 2rem;
@@ -618,7 +614,7 @@ body::-webkit-scrollbar{
 .item3-box2{
     width: 100%;
     border: 1px solid rgb(240, 233, 233);
-    font-size: 2rem;
+    font-size: 1.6rem;
     padding: 20px 20px;
     border-radius: 10px;
     margin-bottom: 2rem;
@@ -689,3 +685,432 @@ body::-webkit-scrollbar{
 
 }
 }
+
+
+
+
+
+
+
+
+/* ------------Tab------------------------- */
+@media (min-width: 587px) and (max-width: 989px){
+
+    .header{
+        width: 100%;
+        padding: 0.4rem 2rem;
+        background-color: rgb(231, 226, 220);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 9px 8px 10px rgb(231, 226, 220);
+        margin-bottom: 10px; 
+    }
+    
+    .header-flex1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .header-h1{
+        font-size: 1.3rem;
+    }
+    
+    .header-links{
+        display: block;
+        margin-bottom: 0px;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .header-linklist{
+        color: rgba(82, 78, 78, 0.925);
+        text-decoration: none;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        word-spacing: -2px;  
+    }
+    
+    .header-linklist:hover{
+        color: black;
+        font-weight: 300;
+    }
+
+    .header-flex2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .profile-name{
+        font-size: 1rem;
+        letter-spacing: 0px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .image{
+      
+    }
+    
+    .profile-img{
+        border-radius: 50% !important;
+    }
+
+
+    /* -------------header section finished---------------- */
+    
+    /* main starts */
+
+    .main1{
+        padding: 0rem 2rem;
+        width: 100%;
+        height: 100vh;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+    .main{
+        position: relative;
+    }
+
+
+    /* -----question-mark-button----- */
+    .question-mark{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 5rem 9rem;
+        display: none;
+    }
+
+    .question-btn{
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 20px ;
+        position: fixed ;
+        background-color: black;
+        color: white;
+    }
+
+
+
+    .main-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;  
+    }
+
+    .main-cont{
+        text-align: center;
+        margin-top: 3px;
+    }
+
+    .m-cont-h1{
+        font-size: 2.6rem;
+        margin-bottom: 15px;
+        font-style: serif;
+    }
+
+    .m-cont-span{
+        color: rgb(224, 147, 3);
+        font-weight: 600;
+        font-size: 2.6rem;
+    }
+
+    .m-cont-p{
+        font-size: 1.6rem;
+        font-weight: 100;
+        /* font-family:'Times New Roman', Times, serif; */
+    }
+
+    .main-cont-btn{
+        margin-top: 15px;
+        padding: 15px 20px;
+        font-size: 25px;
+        background-color: black;
+        border-radius: 8px;
+        color: white;
+    }
+
+    .main-cont-btn:hover{
+        box-shadow: 6px 6px 10px black;
+        border: 0.8px solid white;
+    }
+
+
+    /*------------- main-cont1 -------------*/
+
+    .main-cont1{
+        text-align: center;
+        margin-top: 6rem;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+    .m-cont1-h1{
+        font-size: 2.8rem;
+        padding-bottom: 10px;
+    }
+
+    .m-cont1-p{
+        font-size: 1.8rem;
+        font-family:'Times New Roman', Times, serif serif;
+        padding-bottom: 10px;
+    }
+
+    .card{
+        margin-top: 3rem;
+        width: 100%;
+    }
+
+    .card-flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-cont{
+        width: 20rem;
+        height: 18rem;
+        border-radius: 10px;
+        box-shadow: 8px 8px 10px grey;
+        margin-bottom: 3rem;
+    }
+
+    .card-img{
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .card-content{
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    .card-content-p{
+        font-size: 18px;
+        margin: 5px 0px;
+        line-height: 1.5rem;
+    }
+
+    .card2{
+        text-align: center;
+        margin-top: 6rem;
+        margin-bottom: 5rem;
+    }
+
+    .card2-con img{
+        width: 15rem;
+    }
+
+    .card2-content{
+        text-align: center;
+    }
+
+    .card-cont-h1{
+        font-size: 2.8rem;
+        padding-bottom: 5px;
+    }
+
+    .car-con-p{
+        font-size: 1.8rem;
+    }
+
+    
+.flex{
+    margin-bottom: 0rem;
+}
+
+.item1-box1{
+    width: 100%;
+    border: 1px solid rgb(240, 233, 233);
+    font-size: 1.6rem;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+    
+}
+
+.flex-profile{
+    text-align: left;
+    padding-left: 1rem;
+    font-size: 1.5rem;   
+}
+
+.item1-box2{
+    width: 100%;
+    border: 1px solid rgb(240, 233, 233);
+    font-size: 1.6rem;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.item2-box1{
+    width: 100%;
+    border: 1px solid rgb(240, 233, 233);
+    font-size: 1.6rem;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.item2-box2{
+    width: 100%;
+    border: 1px solid rgb(240, 233, 233);
+    font-size: 1.6rem;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.item3-box1{
+    width: 100%;
+    border: 1px solid rgb(240, 233, 233);
+    font-size: 1.6rem;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    /* background-color: rgba(241, 233, 233, 0.733); */
+}
+
+.item2-box2{
+    width: 100%;
+    border: 1px solid rgb(240, 233, 233);
+    font-size: 1.6rem;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.item3-box1{
+    width: 100%;
+    border: 1px solid rgb(240, 233, 233);
+    font-size: 1.6rem;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.item3-box2{
+    width: 100%;
+    border: 1px solid rgb(240, 233, 233);
+    font-size: 1.6rem;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+
+.online{
+    margin-top: 5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.online-img{
+    width: 30rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+.online-cont{
+    margin-bottom: 4rem;
+}
+
+.online-h1{
+    font-size: 2.6rem;
+    margin-bottom: 12px;
+}
+
+.online-p{
+    font-size: 1.7rem;
+}
+
+.online-btn{
+    padding: 15px 20px;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.online-btn:hover{
+    box-shadow: 4px 4px 6px black;
+    border: 0.6px solid white;
+}
+    
+
+/* ------------footer -------------------*/
+.footer{
+    width: 100%;
+    padding: 2rem 5rem;
+    text-align: center;
+    
+}
+.list{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-items{
+    margin-left: 0rem;
+    margin-bottom: 1rem;
+}
+
+.list-items a{
+    margin-right: 20px;
+    font-size: 1.3rem;
+    color: black;
+    text-decoration: none;
+}
+
+.list-items a:hover{
+    text-decoration: underline;
+}
+.logo-img{
+    width: 40px;
+}
+
+.link-logo{
+    margin-right: 3.5rem;
+}
+
+.link-logo a{
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.logo-img{
+    border-radius: 50%;
+}
+
+.link-logo a:hover{
+    box-shadow: 10px 10px 9px black;
+}
+
+}
+
+/* ------------------ Tab end---------------- */
+
+
+
+
+
+    
+
+
+
+    
+}
+
+
+
+
